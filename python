@@ -1,0 +1,13 @@
+1.输出object: payload
+ 	print(', '.join(['%s:%s' % item for item in payload.items()]))
+
+
+2. 加载文件
+	my_csv=np.loadtxt(open("/home/hadoop/Desktop/2.csv","rb"),delimiter=",",skiprows=0,dtype=np.float) 
+
+3.选取数组的第一列
+	arr[:,:1] 
+      X[:,0]
+  第二列：
+    X[:,1:2]
+    X[:,1]  
