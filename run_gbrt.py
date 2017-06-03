@@ -33,4 +33,6 @@ mae = mean_absolute_error(y_true, y_pred)
 mse = mean_squared_error(y_true, y_pred)
 #25.569808144118888
 
+clf.feature_importances_
+
 
